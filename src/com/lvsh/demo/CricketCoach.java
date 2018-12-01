@@ -4,6 +4,10 @@ public class CricketCoach implements Coach {
 
 	private FortuneService fortuneService;
 	
+	private String email;
+	
+	private String name;
+	
 	public CricketCoach(){
 		System.out.println("we are in cricket coach");
 	}
@@ -25,6 +29,22 @@ public class CricketCoach implements Coach {
 	
 	public void print() {
 		System.out.println("oops!!!!!!");
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 
 }

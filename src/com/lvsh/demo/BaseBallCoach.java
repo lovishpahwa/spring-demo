@@ -18,4 +18,8 @@ public class BaseBallCoach implements Coach {
 		// TODO Auto-generated method stub
 		return fortuneService.getFortune();
 	}
+	
+	public void hello() {
+		System.out.println("oooooooo");
+	}
 }

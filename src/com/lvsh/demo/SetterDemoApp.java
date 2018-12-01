@@ -15,6 +15,10 @@ public class SetterDemoApp {
 
 		System.out.println(coach.getDailyFortune());
 		
+		System.out.println(coach.getEmail());
+		
+		System.out.println(coach.getName());
+		
 		coach.print();
 		
 		context.close();
